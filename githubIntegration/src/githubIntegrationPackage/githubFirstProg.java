@@ -1,12 +1,12 @@
 package githubIntegrationPackage;
 
+import org.testng.annotations.Test;
+
 public class githubFirstProg {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		System.out.println("This is github demo 2");
-
+	@Test
+	public void gitTest()
+	{
+		System.out.println("This is git hub demo with TestnG Jenkins CI");
 	}
-
 }
